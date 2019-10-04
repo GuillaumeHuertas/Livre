@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>book</h2>
+    <div class="list-group">
+      <button class="list-group-item" *ngFor="let book of books; let i = index"
+        (click)="onViewbook(book.id)">
+<p class="list-group-item-text">titre : {{ book.titre }}</p>
+<p class="list-group-item-text">auteur : {{ book.auteur }}</p>
+<p class="list-group-item-text">année : {{ book.année }}</p>
+</button>
+    </div>
+    <button class="btn btn-primary" (click)="onNewbook()">Nouveau book</button>
+  </div>
+</div>

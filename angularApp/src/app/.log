@@ -1,0 +1,4 @@
+Dépôt Git vide initialisé dans /home/ghuertas/JINTM/Stephane/livres/angularApp/src/app/models/.git/
+[master (commit racine) efc4a64] Initialisation du projet
+ 1 file changed, 8 insertions(+)
+ create mode 100644 book.model.ts
